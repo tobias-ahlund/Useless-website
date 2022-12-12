@@ -1,10 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title></title>
-  </head>
-  <body></body>
+<head>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!-- Introduction section -->
+        <section class="first-section">
+            <h1 class="heading">To continue you have to prove that you're not a robot, by passing our rigorous tests</h1>
+            <h2 class="heading-smaller">Scroll down to begin</h2>
+            <img class="arrow-down" src="images/arrow.svg">
+        </section>
+
+        <!-- First test section -->
+        <section class="not-a-robot-section not-a-robot-section-hidden">
+            <h2 class="heading-smaller">Confirm that you're not a robot by checking the box below</h2>
+            <div class="not-a-robot-wrapper">
+                <div class="checkbox">
+                    <img class="check check-hidden" src="images/check.svg">
+                </div>
+                <p class="paragraph-small">I'm not a robot</p>
+                <div class="recycle-wrapper">
+                    <img class="recycle" src="images/recycle.svg">
+                </div>
+            </div>
+        </section>
+
+        <!-- Second test section -->
+        <section class="select-wood-section select-wood-section-hidden">
+            <h2 class="heading-smaller">Okay, you managed to get this far, but to really convince us, pick all images of Billy from Ikea</h2>
+            <div class="select-wood-wrapper-new"></div>
+                <div class="select-wood-section-popup">
+                    <h3 class="select-wood-section-popup-content">Our experts think you’re 100% robot. Please come with us…</h3>
+                    <button class="confirm-btn">Almost fooled you</button>
+                </div>
+        </section>
+
+         <!-- Last test ection -->
+         <section class="word-test-section word-test-section-hidden">
+            <h2 class="heading-smaller">Few robots get this far</h2>
+            <div class="word-test-section-wrapper">
+                <img class="word-test-section-image" src="images/word-test.png">
+                <form class="word-test-section-form">
+                    <input class="word-test-section-input" type="text" placeholder="Type the text and press enter">
+                </form>
+            </div>
+            <div class="word-test-section-popup">
+                <h3 class="select-wood-section-popup-content">Our experts think you’re 100% robot. Please come with us…</h3>
+                <button class="confirm-btn2">Yes sir</button>
+            </div>
+            <div class="last-section-popup-win">
+                <h3 class="last-section-popup-heading">Okay, maybe you're human after all</h3>
+                <button class="confirm-btn3">Tried to tell ya</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
 </html>
