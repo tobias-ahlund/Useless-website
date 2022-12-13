@@ -20,5 +20,5 @@ Add the installation instructions.
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Gustav Enoksson
+2. Emma Hedlund
