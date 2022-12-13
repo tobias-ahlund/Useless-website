@@ -1,4 +1,4 @@
-/* Makes hidden section visible when scrolling */ 
+/* Makes first test visible when scrolling */ 
 const robotSection = document.querySelector(".not-a-robot-section");
 
 window.addEventListener('scroll', function (e) {
@@ -7,11 +7,11 @@ window.addEventListener('scroll', function (e) {
     }, 1000); 
 });
 
-
 const checkbox = document.querySelector(".checkbox");
 const check = document.querySelector(".check");
 const selectWoodSection = document.querySelector(".select-wood-section");
 
+/* Makes second test available when checking box in first test */
 checkbox.addEventListener("click", () => {
     rightAnswer.play();
     check.classList.remove("check-hidden");
@@ -21,7 +21,6 @@ checkbox.addEventListener("click", () => {
     }, 2000);
 });
 
-/* Output of images */
 const selectWoodWrapperNew = document.querySelector(".select-wood-wrapper-new");
 
 const images = [
@@ -45,6 +44,7 @@ const images = [
     }
 ];
 
+/* Output of images in second test */
 function imgOutput() {
     images.forEach((image) => {
         let imageSrc = `${image["image"]}`;
@@ -81,6 +81,7 @@ const imageContainer4 = document.querySelector(".test:nth-of-type(4) img");
 const imageContainer5 = document.querySelector(".test:nth-of-type(5) img");
 const imageContainer6 = document.querySelector(".test:nth-of-type(6) img");
 
+/* Second test, images disappear on click */
 imageContainer1.addEventListener("click", () => {
     imageContainer1.remove();
     imageGameLoss();
@@ -120,6 +121,7 @@ imageContainer6.addEventListener("click", () => {
 let wordTestSection = document.querySelector(".word-test-section");
 let testVar = 0;
 
+/* Starts last test when clicking correct images */
 function testt() {
 if (testVar == 3) {
     this.setTimeout (() => {
