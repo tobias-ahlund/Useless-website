@@ -1,12 +1,8 @@
-INSERT MANDATORY GIF
+![](https://media3.giphy.com/media/tKxvuLmOaKEDQ2hWie/giphy.gif?cid=ecf05e47wr67jsp7al790vnwaez0qttza1i18bl8i83hoa6o&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
-# Project Title
+# Useless website
 
-Text about the project. This would also be a great place to link the game on Netlify.
-
-# Installation
-
-Add the installation instructions.
+The teacher told us to make a a useless website. So I did. Beware of sound effects and the supreme Turing test.
 
 # Code Review
 
