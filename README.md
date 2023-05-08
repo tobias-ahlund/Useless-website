@@ -4,7 +4,7 @@
 
 The teacher told us to make a useless website. So I did. Beware of sound effects and the supreme Turing test.
 
-**[Go to website.]([https://tobias-ahlund.com/project/index.php](https://tobias-ahlund-useless-web.netlify.app/)**
+**[Go to website.](https://tobias-ahlund-useless-web.netlify.app/)**
 
 # Code Review
 
