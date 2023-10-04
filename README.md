@@ -4,15 +4,15 @@
 
 The teacher told us to make a useless website. So I did. Beware of sound effects and the supreme Turing test.
 
+If you want this to run on your machine follow these steps:
+
+1. Clone repository
+
+2. Install Live Server extension
+
+3. Click "Go Live"
+
 **[Go to website.](https://tobias-ahlund-useless-web.netlify.app/)**
-
-# Code Review
-
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
 
 # Testers
 
