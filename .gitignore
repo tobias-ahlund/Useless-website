@@ -1,0 +1,4 @@
+.prettierrc
+.DS_Store
+.vscode
+.github/workflows/
